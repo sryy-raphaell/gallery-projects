@@ -1,17 +1,19 @@
 const projects = {
-  "iot-dashboard": {
-    title: "IoT Hydroponic Monitoring",
-    description:
-      "Web dashboard connected to ESP32 for monitoring pH, humidity and temperature.",
+  "personal-web": {
+    title: "Personal Website",
+    description: "personal-web v1.1 (minor update)",
   },
-  "anime-portfolio": {
-    title: "Anime Style Portfolio Website",
-    description: "Responsive starry sky themed portfolio with grid layout.",
+  "celestial-navi": {
+    title: "Celestial Navigation",
+    description: `Celestial navigation is the ancient, independent practice of
+            determining a vessel's position on Earth by measuring the angles
+            between the horizon and celestial bodies (the Sun, Moon, stars, and
+            planets) using a sextant.`,
   },
-  "smart-irrigation": {
-    title: "Smart Irrigation System",
+  "smart-monitoring": {
+    title: "Smart Monitoring Device",
     description:
-      "Automated irrigation system using soil moisture sensor and ESP32.",
+      "AESP32 based monitoring system for plants with LCD and sensors.",
   },
 };
 
