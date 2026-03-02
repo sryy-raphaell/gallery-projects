@@ -1,0 +1,98 @@
+<!doctype html>
+<!-- HTML5 document declaration -->
+<html lang="en">
+  <head>
+    <!-- document head with metadata and styles -->
+    <meta charset="UTF-8" />
+    <!-- specify character encoding -->
+    <title>SRYY Projects</title>
+    <!-- page title shown in browser tab -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- responsive viewport settings -->
+    <link rel="stylesheet" href="css/base.css" />
+    <!-- base styles for typography and layout -->
+    <link rel="stylesheet" href="css/layout.css" />
+    <!-- grid and layout-specific styles -->
+    <link rel="stylesheet" href="css/components.css" />
+    <!-- reusable component styles (cards, buttons) -->
+    <link rel="stylesheet" href="css/animations.css" />
+    <!-- animation effects used on the page -->
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- media queries for different screen sizes -->
+  </head>
+  <body>
+    <!-- decorative starfield background element -->
+    <div class="stars"></div>
+
+    <header>
+      <!-- main heading and subtitle for the project showcase -->
+      <h1>My Projects</h1>
+      <p>Exploring Code Beyond The Stars</p>
+    </header>
+
+    <!-- grid container holding individual project cards -->
+    <section class="projects-grid">
+      <div class="project-card  ">
+        <!-- first project card -->
+        <div class="image-wrapper">
+          <img src="assets/projects/monipad.jpg" alt="IoT Project" />
+        </div>
+        <div class="card-content">
+          <h3>Smart Monitoring Device</h3>
+          <p>ESP32 based monitoring system for plants with LCD and sensors.</p>
+          <a href="" class="btn">Not Open Source Project , sorry.</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <!-- second project card -->
+        <div class="image-wrapper">
+          <img src="assets/projects/personal-web.png" alt="Personal Website" />
+        </div>
+        <div class="card-content">
+          <h3>Personal Website</h3>
+          <p>personal-web v1.1 (minor update)</p>
+          <div class="button-group">
+            <!-- external and offline links for personal website -->
+            <a
+              href="https://sryy-raphaell.github.io/SRYY-Web/"
+              target="_blank"
+              class="btn"
+              >Visit Website</a
+            >
+            <a
+              href="../../tugas-minggu-1dan2-personal-website/index.html"
+              class="btn secondary"
+              >Offline Version</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <!-- third project card linking to celestial navigation story page -->
+        <div class="image-wrapper">
+          <img src="assets/projects/celestial-navigation.png" alt="Story-Web" />
+        </div>
+        <div class="card-content">
+          <h3>Celestial Navigation</h3>
+          <p>
+            Celestial navigation is the ancient, independent practice of
+            determining a vessel's position on Earth by measuring the angles
+            between the horizon and celestial bodies (the Sun, Moon, stars, and
+            planets) using a sextant.
+          </p>
+          <div class="button-group">
+            <a href="project.html?id=celestial" target="_blank" class="btn">Visit Website</a>
+            <a href="../story-web/index.html" class="btn secondary"
+              >Offline Version</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- main JavaScript file for interactive behavior -->
+    <script src="js/app.js"></script>
+  </body>
+</html>

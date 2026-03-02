@@ -1,0 +1,81 @@
+.project-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  overflow: hidden;
+  backdrop-filter: blur(12px);
+  transition: 0.4s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.image-wrapper {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-card {
+  width: 320px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 20px;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;   
+}
+
+.card-content {
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;                 /* isi ruang tersisa */
+}
+
+.card-content h3 {
+  margin: 0;
+}
+
+.card-content p {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.btn {
+  margin-top: auto;
+  text-align: center;
+  padding: 0.7rem;
+  border-radius: 30px;
+  background: linear-gradient(45deg, #4a6bff, #8f94fb);
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+  ;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(143, 148, 251, 0.6);
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 35px rgba(255, 255, 255, 0.25);
+}
+
+.button-group {
+  margin-top: auto;
+  display: flex;
+  gap: 10px;
+}
+
+.secondary {
+  background: transparent;
+  border: 1px solid #8f94fb;
+}
